@@ -1,0 +1,68 @@
+/* Estilo para el contenedor de los tags */
+.tags-container p {
+    font-size: 16px;
+    margin-bottom: 0;
+    /* Elimina el margen debajo de los tags */
+    display: contents;
+}
+
+/* Estilo para el contenedor del título */
+h2 {
+    margin-bottom: 0;
+    /* Elimina el margen debajo del título */
+}
+
+/* Estilo para los tags dentro del <span> */
+.tags-container span {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+/* Estilo para cada tag individual */
+.tags-container span span {
+    padding: 2px 8px;
+    font-size: 14px;
+    color: #555;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Efecto al pasar el mouse sobre cada tag */
+.tags-container span span:hover {
+    background-color: #008cba;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* Estilo para la meta-info (autor y fecha) */
+.meta-info {
+    margin-top: 0;
+    /* Elimina el margen superior */
+    margin-bottom: 0;
+    /* Elimina el margen inferior */
+}
+
+/* Espacio entre la meta-info y los tags */
+.meta-info+.tags-container {
+    margin-top: 0;
+    /* Elimina el espacio entre la meta-info y los tags */
+}
+
+/* Espacio entre los tags y el párrafo */
+.tags-container {
+    margin-top: 0;
+    /* Elimina el espacio arriba de los tags */
+    margin-bottom: 0;
+    /* Elimina el espacio debajo de los tags */
+}
+
+/* Añadir espacio entre los párrafos */
+.parrafo {
+    margin-bottom: 0;
+    /* Elimina el margen abajo de los párrafos */
+}
